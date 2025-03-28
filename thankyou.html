@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background: #f7f7f7;
+        }
+
+        .thankyou-container {
+            background-color: #ffffff;
+            padding: 50px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            border-radius: 10px;
+            width: 80%;
+            max-width: 600px;
+        }
+
+        .thankyou-container h1 {
+            color: #4CAF50;
+            font-size: 48px;
+            margin-bottom: 20px;
+        }
+
+        .thankyou-container p {
+            font-size: 18px;
+            color: #555555;
+            line-height: 1.6;
+        }
+
+        .thankyou-container .order-details {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border: 1px solid #e0e0e0;
+            border-radius: 10px;
+        }
+
+        .thankyou-container .order-details h3 {
+            margin-bottom: 10px;
+            color: #333333;
+            font-size: 20px;
+        }
+
+        .thankyou-container .order-details p {
+            margin: 5px 0;
+            font-size: 16px;
+            color: #777777;
+        }
+
+        .thankyou-container .button {
+            display: inline-block;
+            margin-top: 30px;
+            padding: 10px 30px;
+            background-color: #4CAF50;
+            color: #ffffff;
+            text-transform: uppercase;
+            font-size: 14px;
+            letter-spacing: 1px;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+
+        .thankyou-container .button:hover {
+            background-color: #388E3C;
+        }
+
+        /* Animation for Thank You Message */
+        .thankyou-container h1 {
+            animation: slideDown 0.8s ease-out;
+        }
+
+        @keyframes slideDown {
+            0% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="thankyou-container">
+    <h1>Thank You!</h1>
+    <p>Your payment was successful. We have received your details and will process it soon.</p>
+
+
+    <a href="index.html" class="button">Back to Home</a>
+</div>
+
+</body>
+</html>

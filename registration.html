@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="Orbitor,business,company,agency,modern,bootstrap4,tech,software">
+    <meta name="author" content="themefisher.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Home-Mediature GxP Solutions Pvt. Ltd.</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
+
+    <!-- bootstrap.min css -->
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+    <!-- Icon Font Css -->
+    <link rel="stylesheet" href="plugins/icofont/icofont.min.css">
+    <!-- Slick Slider  CSS -->
+    <link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
+    <link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="./NEWIMAGES/MEDIATURE LOGO.png" rel="icon">
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+
+    <style>
+    
+        .registration-form {
+            background: #fff;
+            padding: 30px;
+            margin: 50px auto;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+        }
+
+        .form-control {
+            border-radius: 30px;
+        }
+
+        .btn-primary,
+        .btn-secondary {
+            border-radius: 30px;
+            padding: 10px 20px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+    </style>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Add Razorpay script -->
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+
+
+
+
+
+</head>
+
+<body id="top">
+
+
+    <!-- Navbar Start -->
+    <header>
+        <div class="header-top-bar">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <ul class="top-bar-info list-inline-item pl-0 mb-0">
+                            <li class="list-inline-item"><a href="mailto:support@gmail.com"><i
+                                        class="icofont-support-faq mr-2"></i>bd@mediaturegxp.com</a></li>
+                            <li class="list-inline-item"><i class="icofont-location-pin mr-2"></i>Phase 1,New Nalagarh
+                                Distt.Solan (HP) 174101 </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="text-lg-right top-right-bar mt-2 mt-lg-0">
+                            <a href="tel:+23-345-67890">
+                                <span>Call Now : </span>
+                                <span class="h4">+91-9023668921 </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navigation" id="navbar">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <!-- <img src="images/logo.png" alt="" class="img-fluid"> -->
+                    <img src="./NEWIMAGES/MEDIATURE LOGO.png" alt="" class="img-fluid2">
+                </a>
+
+                <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarmain"
+                    aria-controls="navbarmain" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="icofont-navigation-menu"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarmain">
+                    <ul class="navbar-nav ml-auto">
+
+                        <li class="nav-item  ">
+                            <a class="nav-link " href="training.html"> Technical Training</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="gmp.html">GMP</a></li>
+                        <li class="nav-item"><a class="nav-link" href="qms.html">QMS</a></li>
+                        <li class="nav-item"><a class="nav-link" href="affairs.html">Regulatory Affairs</a></li>
+                        <li class="nav-item"><a class="nav-link" href="pharma.html">Pharmacovigilance</a></li>
+                        <li class="nav-item"><a class="nav-link" href="consultancy.html">Consultancy</a></li>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="index.html" id="dropdown02" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">Home <i class="icofont-thin-down"></i></a>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown02">
+                                <li><a class="dropdown-item active" href="index.html">Home</a></li>
+                                <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                                <li><a class="dropdown-item" href="nwes.html">News and Article</a></li>
+                                <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+                                <li><a class="dropdown-item" href="registration.html">Registration</a></li>
+                                <li><a class="dropdown-item" href="admin/admin_login.html">Admin</a></li>
+                            </ul>
+                        </li>
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Navbar End -->
+
+
+    <!--reg start  -->
+    <div class="container">
+        <div class="registration-form">
+            <h2>Registration Form</h2>
+        <form id="registrationForm" method="POST">
+            <!-- Form Fields -->
+            <div class="form-group">
+                <label for="fullname">Full Name <span class="required">*</span></label>
+                <input type="text" class="form-control" id="fullname" name="fullname" placeholder="Enter your full name" required>
+            </div>
+            <div class="form-group">
+                <label for="qualification">Qualification <span class="required">*</span></label>
+                <input type="text" class="form-control" id="qualification" name="qualification" placeholder="Enter your qualification" required>
+            </div>
+            <div class="form-group">
+                <label for="institute">Institute or Company Name <span class="required">*</span></label>
+                <input type="text" class="form-control" id="institute" name="institute" placeholder="Enter your institute or company name" required>
+            </div>
+            <div class="form-group">
+                <label for="experience">Experience (In Years) <span class="required">*</span></label>
+                <input type="text" class="form-control" id="experience" name="experience" placeholder="Enter your experience" required>
+            </div>
+            <div class="form-group">
+                <label for="interest">Interest <span class="required">*</span></label>
+                <select class="form-control" id="interest" name="interest" required>
+                    <option value="">Select interest</option>
+                    <option value="online">Online</option>
+                    <option value="onsite">Onsite</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="course">Course Name <span class="required">*</span></label>
+                <select class="form-control" id="course" name="course" required>
+                    <option value="">Select course</option>
+                    <option value="Quality Control">Quality Control</option>
+                    <option value="Quality Assurance">Quality Assurance</option>
+                    <option value="regulatory">Regulatory</option>
+                    <option value="Production">Production</option>
+                    <option value="Others">Others</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="email">Email <span class="required">*</span></label>
+                <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone <span class="required">*</span></label>
+             <div style="display:flex;">
+                <select style="width: 142px;
+    height: 46px;" class="form-control" id="country-code" name="country-code" required>
+                                            <option value="+91"  selected>+91 (India)</option>
+                                            <option value="+1">+1 (USA)</option>
+                                            <option value="+91">+91 (India)</option>
+                                            <option value="+44">+44 (United Kingdom)</option>
+                                            <option value="+61">+61 (Australia)</option>
+                                            <option value="+81">+81 (Japan)</option>
+                                            <option value="+86">+86 (China)</option>
+                                            <option value="+49">+49 (Germany)</option>
+                                            <option value="+33">+33 (France)</option>
+                                            <option value="+39">+39 (Italy)</option>
+                                            <option value="+34">+34 (Spain)</option>
+                                            <option value="+7">+7 (Russia)</option>
+                                            <option value="+55">+55 (Brazil)</option>
+                                            <option value="+27">+27 (South Africa)</option>
+                                            <option value="+234">+234 (Nigeria)</option>
+                                            <option value="+63">+63 (Philippines)</option>
+                                            <option value="+62">+62 (Indonesia)</option>
+                                            <option value="+66">+66 (Thailand)</option>
+                                            <option value="+92">+92 (Pakistan)</option>
+                                            <option value="+971">+971 (UAE)</option>
+                                            <option value="+82">+82 (South Korea)</option>
+                                            <option value="+46">+46 (Sweden)</option>
+                                            <option value="+31">+31 (Netherlands)</option>
+                                            <option value="+351">+351 (Portugal)</option>
+                                            <option value="+90">+90 (Turkey)</option>
+                                            <option value="+20">+20 (Egypt)</option>
+                                            <option value="+94">+94 (Sri Lanka)</option>
+                                            <option value="+880">+880 (Bangladesh)</option>
+                                            <option value="+32">+32 (Belgium)</option>
+                                            <option value="+41">+41 (Switzerland)</option>
+                                            <option value="+52">+52 (Mexico)</option>
+                                            <option value="+64">+64 (New Zealand)</option>
+                                            <option value="+972">+972 (Israel)</option>
+                                            <option value="+254">+254 (Kenya)</option>
+                                            <option value="+48">+48 (Poland)</option>
+                                            <option value="+43">+43 (Austria)</option>
+                                            <option value="+60">+60 (Malaysia)</option>
+                                            <option value="+45">+45 (Denmark)</option>
+                                            <option value="+353">+353 (Ireland)</option>
+                                            <option value="+359">+359 (Bulgaria)</option>
+                                            <option value="+30">+30 (Greece)</option>
+                                            <option value="+36">+36 (Hungary)</option>
+                                            <option value="+1-242">+1-242 (Bahamas)</option>
+                                            <option value="+1-246">+1-246 (Barbados)</option>
+                                            <option value="+1-441">+1-441 (Bermuda)</option>
+                                            <option value="+1-876">+1-876 (Jamaica)</option>
+                                            <option value="+213">+213 (Algeria)</option>
+                                            <option value="+216">+216 (Tunisia)</option>
+                                            <option value="+98">+98 (Iran)</option>
+                                            <option value="+61-8">+61-8 (Antarctica)</option>
+                                            <option value="+967">+967 (Yemen)</option>
+                                            <option value="+258">+258 (Mozambique)</option>
+                                            <!-- Add more countries as needed -->
+                                        </select>
+                <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter your phone number" required>
+             
+             </div>
+            </div>
+            <div class="form-group">
+                <label for="address">Address <span class="required">*</span></label>
+                <textarea class="form-control" id="address" name="address" rows="3" placeholder="Enter your address" required></textarea>
+            </div>
+        
+            <!-- Hidden fields -->
+            <input type="hidden" id="payment_id" name="payment_id">
+            <input type="hidden" id="payment_status" name="payment_status">
+        
+            <!-- Buttons -->
+            <button type="button" class="btn btn-success btn-block" id="saveButton">Save</button>
+            <button type="button" class="btn btn-primary btn-block" id="payButton">Save and Pay</button>
+            <a href="index.html"><button type="button" class="btn btn-success btn-block mt-3" >Back to Home</button></a>
+        </form>
+        </div>
+    </div>
+
+    <!-- reg end -->
+
+
+
+    <!-- footer Start -->
+    <!-- footer Start -->
+    <footer class="footer section gray-bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mr-auto col-sm-6">
+                    <div class="widget mb-5 mb-lg-0">
+                        <div class="logo mb-4">
+                            <!-- <img src="images/logo.png" alt="" class="img-fluid"> -->
+                            <img src="./NEWIMAGES/MEDIATURE LOGO.png" alt="" class="img-fluid1">
+                        </div>
+                        <p>With a focus on pharmaceutical safety and efficacy, Mediature GxP Solutions Pvt. Ltd.
+                            provides professional regulatory, quality management, and compliance services.</p>
+
+                            	<p><i class="icofont-location-pin mr-2"></i> Branch
+						Offices In India Vadodra | Hyderabad |
+						Delhi NCR</p>
+
+                        <ul class="list-inline footer-socials mt-4">
+                            <li class="list-inline-item"><a href=""><i class="icofont-facebook"></i></a></li>
+                            <li class="list-inline-item"><a href=""><i class="icofont-twitter"></i></a></li>
+                            <li class="list-inline-item"><a href=""><i class="icofont-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="widget widget-contact mb-5 mb-lg-0">
+                        <h4 class="text-capitalize mb-3">Get in Touch</h4>
+                        <div class="divider mb-4"></div>
+
+                        <div class="footer-contact-block mb-4">
+                            <div class="icon ">
+                                <!-- <i class="icofont-email mr-3"></i>
+								<span class="h6 mb-0">Support Available for 24/7</span> -->
+                                <i class="icofont-location-pin mr-2"></i>Phase 1,New Nalagarh
+                                Distt.Solan (HP) 174101
+                            </div>
+                            <!-- <h4 class="mt-2"><a href="tel:+23-345-67890">Support@email.com</a></h4> -->
+                        </div>
+
+                        <div class="footer-contact-block mb-2">
+                            <div class="icon ">
+                                <i class="icofont-envelope mr-2"></i> bd@mediaturegxp.com
+                            </div>
+
+                        </div>
+                        <div class="footer-contact-block">
+                            <div class="icon ">
+                                <i class="icofont-phone mr-2"></i>+91-9023668921
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-6">
+                    <div class="widget mb-5 mb-lg-0">
+                        <h4 class="text-capitalize mb-3">Quick Links</h4>
+                        <div class="divider mb-4"></div>
+
+                        <ul class="list-unstyled footer-menu lh-35">
+                            <li><a href="index.html">Home</a></li>
+
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="nwes.html">News & Article</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
+                            <!-- <li><a href="#">Medicine</a></li> -->
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-6 col-sm-6">
+                    <div class="widget mb-5 mb-lg-0">
+                        <h4 class="text-capitalize mb-3">Services</h4>
+                        <div class="divider mb-4"></div>
+
+                        <ul class="list-unstyled footer-menu lh-35">
+                            <li><a href="training.html">Technical Training</a></li>
+                            <li><a href="gmp.html">GMP</a></li>
+                            <li><a href="qms.html">QMS</a></li>
+                            <li><a href="affairs.html">Regulatory Affairs </a></li>
+                            <li><a href="pharma.html">Pharmacovigilance</a></li>
+                            <li><a href="consultancy.html">Consultancy</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="footer-btm py-4 mt-5">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-lg-6">
+                        <div class="copyright">
+                            &copy;2024, All right reserved by <a href="" target="_blank">Mediature GxP Solutions Private
+                                Limited</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="subscribe-form text-lg-right mt-5 mt-lg-0">
+                            <!-- <form action="#" class="subscribe">
+								<input type="text" class="form-control" placeholder="Your Email address">
+								<a href="#" class="btn btn-main-2 btn-round-full">Subscribe</a>
+							</form> -->
+                            <div>
+                                Designed by <a href="http://www.zixininfotech.com" target="_blank">Zixin</a>💖
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <a class="backtop js-scroll-trigger" href="#top">
+                            <i class="icofont-long-arrow-up"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer ends -->
+    <!-- footer End -->
+
+    <!-- whatsapp integration start -->
+    <div class="whatsapp-float">
+        <a href="https://wa.me/+919023668921 " target="_blank"><img src="./NEWIMAGES/wp.jpeg" alt=""
+                whatsapp-float-btn></a>
+    </div>
+    <!-- whatsapp integration end -->
+
+
+
+    <!-- 
+    Essential Scripts
+    =====================================-->
+
+
+    <!-- Razorpay payment script -->
+
+<script>
+// Save without payment
+document.getElementById('saveButton').onclick = function (e) {
+e.preventDefault();
+
+var form = document.getElementById('registrationForm');
+if (!form.checkValidity()) {
+alert('Please fill all required fields.');
+return;
+}
+
+console.log('Form is valid, preparing to send data...');
+
+// AJAX request to save data without payment
+var formData = new FormData(form);
+var xhr = new XMLHttpRequest();
+xhr.open('POST', 'save_registration.php', true);
+
+xhr.onload = function () {
+console.log('Response received:', xhr.status, xhr.responseText);
+if (xhr.status === 200) {
+alert('Data saved successfully.');
+form.reset(); // Optional: Reset the form fields
+} else {
+alert('Error saving data. Status: ' + xhr.status);
+}
+};
+
+xhr.onerror = function () {
+console.error('Request failed. Check the server or network.');
+alert('Error in the request.');
+};
+
+xhr.send(formData);
+};
+
+// Payment process (including save data)
+document.getElementById('payButton').onclick = function (e) {
+e.preventDefault();
+
+// Ensure form validation
+var form = document.getElementById('registrationForm');
+if (!form.checkValidity()) {
+alert('Please fill all required fields.');
+return;
+}
+
+// Razorpay payment options
+var options = {
+"key": "rzp_live_HHMN1ZXhKtM8OX", // Replace with your Razorpay Key ID
+"amount": 10000, // Amount in paise (10000 = Rs 100)
+"currency": "INR",
+"name": "MEDIATURE",
+"description": "Course Registration",
+"image": "./NEWIMAGES/MEDIATURE LOGO.png",
+"handler": function (response) {
+// Payment successful
+alert('Payment successful. Payment ID: ' + response.razorpay_payment_id);
+
+// Set hidden fields with payment details
+document.getElementById('payment_id').value = response.razorpay_payment_id;
+document.getElementById('payment_status').value = "Success";
+
+// Submit the form
+form.submit();
+},
+"prefill": {
+"name": document.getElementById('fullname').value,
+"email": document.getElementById('email').value,
+"contact": document.getElementById('phone').value
+},
+"theme": {
+"color": "#3399cc"
+}
+};
+
+var rzp1 = new Razorpay(options);
+rzp1.open();
+};
+
+</script>
+ 
+
+    <!-- <script>
+        $(document).ready(function () {
+            $('#payButton').click(function (e) {
+                e.preventDefault();
+
+                
+                var isValid = true;
+                $('#registrationForm').find('input, select, textarea').each(function () {
+                    if ($(this).prop('required') && $(this).val() === '') {
+                        alert('Please fill all required fields.');
+                        isValid = false;
+                        return false; 
+                    }
+                });
+
+                if (!isValid) return;
+
+              
+                var options = {
+                    "key": "rzp_test_n5f4HslNAyTlOf", 
+                    "amount": 10000, 
+                    "currency": "INR",
+                    "name": "MEDIATURE",
+                    "description": "Course Registration",
+                    "image": "./NEWIMAGES/MEDIATURE LOGO.png",
+                    "handler": function (response) {
+                       
+                        alert('Payment successful. Payment ID: ' + response.razorpay_payment_id);
+
+                       
+                        $.ajax({
+                            url: "process_payment.php", 
+                            type: "POST",
+                            data: {
+                                fullname: $('#fullname').val(),
+                                qualification: $('#qualification').val(),
+                                institute: $('#institute').val(),
+                                experience: $('#experience').val(),
+                                interest: $('#interest').val(),
+                                course: $('#course').val(),
+                                email: $('#email').val(),
+                                phone: $('#phone').val(),
+                                address: $('#address').val(),
+                                payment_id: response.razorpay_payment_id,
+                                payment_status: "Success" 
+                            },
+                            success: function (data) {
+                                console.log("Payment data submitted successfully.");
+                                window.location.href = "./thankyou.html";
+                            },
+                            error: function (xhr, status, error) {
+                                console.error("Payment submission failed: ", xhr.responseText);
+                                alert("Payment submission failed. Please try again.");
+                            }
+                        });
+                    },
+                    "prefill": {
+                        "name": $('#fullname').val(),
+                        "email": $('#email').val(),
+                        "contact": $('#phone').val()
+                    },
+                    "theme": {
+                        "color": "#3399cc"
+                    }
+                };
+
+                var rzp1 = new Razorpay(options);
+                rzp1.open();
+            });
+        });
+    </script> -->
+
+
+
+
+
+    <!-- Main jQuery -->
+    <script src="plugins/jquery/jquery.js"></script>
+    <!-- Bootstrap 4.3.2 -->
+    <script src="plugins/bootstrap/js/popper.js"></script>
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="plugins/counterup/jquery.easing.js"></script>
+    <!-- Slick Slider -->
+    <script src="plugins/slick-carousel/slick/slick.min.js"></script>
+    <!-- Counterup -->
+    <script src="plugins/counterup/jquery.waypoints.min.js"></script>
+
+    <script src="plugins/shuffle/shuffle.min.js"></script>
+    <script src="plugins/counterup/jquery.counterup.min.js"></script>
+    <!-- Google Map -->
+    <script src="plugins/google-map/map.js"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>
+
+    <script src="js/script.js"></script>
+    <script src="js/contact.js"></script>
+
+</body>
+
+</html>
