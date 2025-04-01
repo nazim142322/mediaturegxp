@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="zxx">
-
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="description" content="Orbitor,business,company,agency,modern,bootstrap4,tech,software">
@@ -9,15 +8,15 @@
 	<title>Home-Mediature GxP Solutions Pvt. Ltd.</title>
 	<!-- Favicon -->
 	<link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
-
 	<!-- bootstrap.min css -->
 	<link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
 	<!-- Icon Font Css -->
 	<link rel="stylesheet" href="plugins/icofont/icofont.min.css">
 	<!-- Slick Slider  CSS -->
 	<link rel="stylesheet" href="plugins/slick-carousel/slick/slick.css">
-	<link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">
-
+	<link rel="stylesheet" href="plugins/slick-carousel/slick/slick-theme.css">	
+	<!-- Include AOS Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 	<!-- Main Stylesheet -->
 	<link rel="stylesheet" href="css/style.css">
 	<link href="./NEWIMAGES/MEDIATURE LOGO.png" rel="icon">
@@ -26,7 +25,10 @@
 		display:flex;
 		align-items: center;
 		justify-content: center;
-			}
+		}
+	.feature-item{
+			box-shadow: 0 1rem 3rem rgba(0, 0, 0, .175) !important;
+		}		
 </style>	
 
 </head>
@@ -347,21 +349,19 @@
 		</div>
 	</section>
 	<!-- Features End -->
-
-
 	<!-- About US Start -->
-	<section class="section about">
+	<!-- <section class="section about">
 		<div class="container-fluid">
 			<div class="row align-items-center">
-				<div class="col-lg-4 col-sm-6">
+				<div class="col-lg-4 col-sm-6" style="border:1px solid green">
 					<div class="about-img">
-						<img src="./NEWIMAGES/aboutnew1.jpeg" alt="" class="img-fluid">
-						<img src="./NEWIMAGES/aboutnew2.jpeg" alt="" class="img-fluid mt-4">
+						<img src="./NEWIMAGES/about2.jpg" alt="" class="img-fluid about_hide" style="width:100%; height:auto;" >
+						<img src="./NEWIMAGES/aboutnew2.jpg" alt="" class="img-fluid mt-4 about_hide">
 					</div>
 				</div>
-				<div class="col-lg-4 col-sm-6">
+				<div class="col-lg-4 col-sm-6" style="border:1px solid red">
 					<div class="about-img mt-4 mt-lg-0">
-						<img src="./NEWIMAGES/about2.jpg" alt="" class="img-fluid">
+						<img src="./NEWIMAGES/aboutnew1.jpg" alt="" class="img-fluid">
 					</div>
 				</div>
 				<div class="col-lg-4">
@@ -377,12 +377,41 @@
 				</div>
 			</div>
 		</div>
+	</section> -->
+	<section class="section about">
+		<div class="container-fluid">
+			<div class="row align-items-center">
+				<!-- First Column -->
+				<div class="col-lg-3 col-md-6" style="">
+					<div class="about-img text-center" data-aos="fade-up">
+						<img src="./NEWIMAGES/aboutnew2.jpg" alt="About Image 1" class="img-fluid rounded shadow-lg " style="width: 100%; height: auto;">
+						<img src="./NEWIMAGES/about2.jpg" alt="About Image 2" class="img-fluid rounded shadow-lg mt-3 about_hide" style="width: 100%; height: auto;">
+					</div>
+				</div>
+				
+				<!-- Second Column -->
+				<div class="col-lg-3 col-md-6" style="">
+					<div class="about-img text-center" data-aos="fade-up" data-aos-delay="200">
+						<img src="./NEWIMAGES/aboutnew1.jpg" alt="About Image 3" class="img-fluid rounded shadow-lg about_hide" style="width: 100%; height: auto;">
+					</div>
+				</div>
+				
+				<!-- Third Column -->
+				<div class="col-lg-6 mt-4 mt-lg-0" data-aos="fade-left" data-aos-delay="400">
+					<div class="about-content px-3 py-4 bg-light rounded shadow-lg">
+						<h2 class="title-color text-center">Our Brand <br><span class="text-primary h3">Skilled Resolutions</span></h2>
+						<p class="mt-3 text-muted text-justify">Expert advice in QMS, GMP, and regulatory affairs is our area of expertise at Mediature GxP Solutions Pvt. Ltd. In pharmaceutical processes, our skilled team guarantees quality, safety, and compliance.</p>
+						<div class="text-center mt-4">
+							<a href="training.html" class="btn btn-main-2 btn-round-full btn-icon shadow-sm px-4 py-2">Technical Training<i class="icofont-simple-right ml-2"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
 	</section>
-
 	<!-- About Us End -->
-
 	<!--Counter Section Start  -->
-	<section class="cta-section ">
+	<!-- <section class="cta-section">
 		<div class="container-fluid">
 			<div class="cta position-relative">
 				<div class="row">
@@ -418,7 +447,33 @@
 				</div>
 			</div>
 		</div>
-	</section>
+		</section>-->
+		<section class="counter_section py-5" style="background: linear-gradient(135deg, #01aef2, #ec3237); color: white;">
+			<div class="container text-center">
+				<div class="row g-4">
+					<div class="col-md-3 col-sm-6">
+						<i class="icofont-doctor display-4 text-white"></i>
+						<h3 class="counter" style="color: white; font-size: 2.5rem;">1000</h3>+
+						<p class="mt-2" style="font-size:1.2rem;">Happy Clients</p>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<i class="icofont-flag display-4 text-danger"></i>
+						<h3 class="counter" style="color: white; font-size: 2.5rem;">50</h3>+
+						<p class="mt-2" style="font-size: 1.2rem;">Projects Completed</p>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<i class="icofont-badge display-4 text-success"></i>
+						<h3 class="counter" style="color: white; font-size: 2.5rem;">30</h3>+
+						<p class="mt-2" style="font-size: 1.2rem;">Expert Team Members</p>
+					</div>
+					<div class="col-md-3 col-sm-6">
+						<i class="icofont-globe display-4 text-warning"></i>
+						<h3 class="counter" style="color: white; font-size: 2.5rem;">3</h3>+
+						<p class="mt-2" style="font-size: 1.2rem;">Worldwide Branches</p>
+					</div>
+				</div>
+			</div>
+		</section>
 	<!-- Counter Section End -->
 
 	<!-- Service Section Start -->
@@ -722,7 +777,7 @@
 	<!--Blog Section End  -->
 
 	<!-- Client Section Start -->
-	<section class="section clients">
+	<!-- <section class="section clients">
 		<div class="container-fluid">
 			<div class="row justify-content-center">
 				<div class="col-lg-7">
@@ -779,7 +834,7 @@
 						<img src="./NEWIMAGES/pr8.jpeg" alt="" class="img-fluid">
 					</div>
 				</div>
-				<!-- <div class="col-lg-2">
+				<div class="col-lg-2">
 					<div class="client-thumb">
 						<img src="images/about/5.png" alt="" class="img-fluid">
 					</div>
@@ -788,10 +843,58 @@
 					<div class="client-thumb">
 						<img src="images/about/6.png" alt="" class="img-fluid">
 					</div>
-				</div> -->
+				</div>
+			</div>
+		</div>
+	</section> -->
+	<section class="section clients py-5">
+		<div class="container text-center">
+			<div class="row justify-content-center">
+				<div class="col-lg-7">
+					<div class="section-title">
+						<h2 class="fw-bold">Partners Who Support Us</h2>
+						<div class="divider mx-auto my-4" style="width: 80px; height: 4px; background-color: #ec3237;"></div>
+						<p style="font-size: 1.1rem; color: #6c757d;">
+							With the resources and industry-leading knowledge that our dependable partners provide, we
+							can guarantee that we provide outstanding regulatory solutions and uphold the strictest
+							standards of pharmaceutical compliance.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		<div class="container">
+			<div class="row clients-logo justify-content-center align-items-center text-center">
+				<div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
+					<img src="./NEWIMAGES/pr1.jpeg" alt="Partner 1" class="img-fluid" style="height: 100px; object-fit: contain; background: transparent;">
+				</div>
+				<div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
+					<img src="./NEWIMAGES/pr2.jpeg" alt="Partner 2" class="img-fluid" style="height: 100px; object-fit: contain; background: transparent;">
+				</div>
+				<div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
+					<img src="./NEWIMAGES/pr3.jpeg" alt="Partner 3" class="img-fluid" style="height: 100px; object-fit: contain; background: transparent;">
+				</div>
+				<div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
+					<img src="./NEWIMAGES/pr4.jpeg" alt="Partner 4" class="img-fluid" style="height: 100px; object-fit: contain; background: transparent;">
+				</div>
+				<div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
+					<img src="./NEWIMAGES/pr5.jpeg" alt="Partner 5" class="img-fluid" style="height: 100px; object-fit: contain; background: transparent;">
+				</div>
+				<div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
+					<img src="./NEWIMAGES/pr6.jpeg" alt="Partner 6" class="img-fluid" style="height: 100px; object-fit: contain; background: transparent;">
+				</div>
+				<div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
+					<img src="./NEWIMAGES/pr7.jpeg" alt="Partner 7" class="img-fluid" style="height: 100px; object-fit: contain; background: transparent;">
+				</div>
+				<div class="col-6 col-sm-4 col-md-3 col-lg-2 p-3">
+					<img src="./NEWIMAGES/pr8.jpeg" alt="Partner 8" class="img-fluid" style="height: 100px; object-fit: contain; background: transparent;">
+				</div>
 			</div>
 		</div>
 	</section>
+	
+	
 	<!-- Client Section End -->
 	<!-- Testimonial Section Start -->
 	<section class="section testimonial-2 gray-bg">
@@ -1145,10 +1248,39 @@
 	<script src="plugins/google-map/map.js"></script>
 	<script
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkeLMlsiwzp6b3Gnaxd86lvakimwGA6UA&callback=initMap"></script>
-
+	  <!-- Include AOS Library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+    AOS.init({
+        duration: 1000,
+        easing: "ease-in-out",
+        once: true
+    });
+</script>
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        let counters = document.querySelectorAll(".counter");
+        counters.forEach(counter => {
+            let updateCount = () => {
+                let target = +counter.innerText;
+                let count = 0;
+                let speed = target / 50;
+                let interval = setInterval(() => {
+                    count += speed;
+                    if (count >= target) {
+                        counter.innerText = target;
+                        clearInterval(interval);
+                    } else {
+                        counter.innerText = Math.ceil(count);
+                    }
+                }, 50);
+            };
+            updateCount();
+        });
+    });
+</script>
 	<script src="js/script.js"></script>
 	<script src="js/contact.js"></script>
-
 </body>
-
 </html>

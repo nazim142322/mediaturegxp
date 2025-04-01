@@ -2146,6 +2146,11 @@ textarea-mission {
     margin-bottom: 20px;
   }
 }
+@media (max-width: 767px) {
+  .about_hide {
+    display: none;
+  }
+}
 /* about us section ends */
 
 /* mission section starts */
